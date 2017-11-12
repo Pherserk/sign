@@ -2,7 +2,7 @@
 
 namespace Pherserk\Sign\model;
 
-class SignInterface
+interface SignInterface
 {
     public function getSign() : string;
 
